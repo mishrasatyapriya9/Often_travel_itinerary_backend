@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment (common names: venv, .venv)
+venv/
+.venv/
+
+# Environment variable files
+.env
+*.env
+
+# IDE/editor folders
+.vscode/
+.idea/
+
+# Test cache
+.pytest_cache/
+
+# Database
+*.sqlite3
+*.db
+
+# Logs and output
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Packaging and distribution
+*.egg-info/
+build/
+dist/
+
+# Pydantic cache (in FastAPI)
+__pydantic_schema_cache__/
